@@ -1,5 +1,4 @@
 import './Profile.css'
-import './reset.css'
 const Profile = ({ image, name, tag, location, stats}) => {
   return (
 <div className="userCard">

@@ -1,16 +1,21 @@
-import './FriendListItem'
+import FriendListItem from "./FriendListItem";
 
-import './Profile.css'
-import './reset.css'
 const FriendList = ({ friends }) => {
-  return (
-<ul>
-	{/* Кількість li залежить від кількості об'єктів в масиві */}
-	<li>
-		<FriendListItem />
-	</li>
-</ul>
-  );
-};
+
+    return (friends.map((friend) => {
+        return (
+            <ul className="friendList">
+                <li>
+                    <FriendListItem
+                        key={friend.id}
+                        avatar={friend.avatar}
+                        name={friend.name}
+                        isOnline={friend.isOnline}
+                     />
+                </li>
+            </ul>)
+    }))
+} 
+
 
 export default FriendList;
