@@ -1,5 +1,29 @@
 .friendList {
   display: flex;
   flex-direction: row;
-  gap: 8px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.friendCard {
+  width: 220px;
+  border: 2px solid black;
+  border-radius: 8px;
+  padding: 28px 20px;
+  width: 100px;
+}
+
+.friendName {
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.online {
+  color: green;
+  font-size: 24px;
+}
+
+.offline {
+  color: red;
+  font-size: 24px;
 }
