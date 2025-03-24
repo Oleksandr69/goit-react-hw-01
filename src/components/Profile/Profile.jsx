@@ -1,5 +1,5 @@
-import './Profile.module.css'
-// import './Profile.css'
+// import './Profile.module.css'
+import './Profile.css'
 const Profile = ({ image, name, tag, location, stats}) => {
   return (
 <div className="userCard">
