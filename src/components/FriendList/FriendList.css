@@ -3,10 +3,11 @@
   flex-direction: row;
   margin: 0 auto;
   justify-content: space-between;
+  gap: 6px;
 }
 
 .friendCard {
-  width: 220px;
+  width: 132px;
   border: 2px solid black;
   border-radius: 8px;
   padding: 28px 20px;

@@ -1,0 +1,27 @@
+.tableHistory {
+  width: 100%;
+  margin-top: 42px;
+}
+
+table,
+th,
+td {
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+
+.headTable {
+  background-color: black;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.bodyTable {
+  font-size: 28px;
+  color: black;
+}
+
+tr:nth-child(even) {
+  background-color: rgb(168, 166, 166);
+}
