@@ -20,6 +20,7 @@ td {
 .bodyTable {
   font-size: 28px;
   color: black;
+  text-align: center;
 }
 
 tr:nth-child(even) {

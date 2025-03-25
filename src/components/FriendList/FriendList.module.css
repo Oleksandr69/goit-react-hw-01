@@ -3,7 +3,7 @@
   flex-direction: row;
   margin: 0 auto;
   justify-content: space-between;
-  gap: 6px;
+  max-width: 800px;
 }
 
 .friendCard {
@@ -12,6 +12,7 @@
   border-radius: 8px;
   padding: 28px 20px;
   width: 100px;
+  text-align: center;
 }
 
 .friendName {
